@@ -30,7 +30,7 @@ class Server:
 
 
     def start(self):
-        self.server.bind((self.ip, self.port))
+        self.server.bind((self.ip. self.port))
         _(f'Server started! Ip: {self.ip}, Port: {self.port}')
         while True:
             self.server.listen()
